@@ -13,9 +13,11 @@ public class dice{
     System.out.println("dice 1 : " + a);
     int b = 1 + (int) (Math.random() * SIDES);
     System.out.println("dice 2 : " + b);
-    int sum = a + b;
+    // I created dice3.
+    int c = 1 + (int) (Math.random() * SIDES);
+    System.out.println("dice 3 : " + c);
+    int sum = a + b + c;
     System.out.println("Total value : " + sum);
-
     if(sum > 7){
       System.out.println(string + " won!");
     }else{
@@ -24,3 +26,4 @@ public class dice{
 
   }
 }
+
